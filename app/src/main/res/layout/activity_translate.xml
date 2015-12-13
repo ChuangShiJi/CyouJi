@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chsj.chanyouji.fragments.tools.activity.TranslateActivity">
+
+    <LinearLayout
+        android:id="@+id/translate_top"
+        android:orientation="horizontal"
+        android:background="#009BE1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/translate_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/tool_translate_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_ab_back_holo_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="语音翻译"
+            android:layout_toRightOf="@id/tool_translate_back"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/text_translate"
+        android:layout_below="@id/translate_top"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="40dp"
+        android:background="#fff">
+
+        <Spinner
+            android:id="@+id/translate_from"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+        <RadioButton
+            android:id="@+id/translate_start_queryRBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_gravity="center"
+            android:background="@mipmap/translation_change_pressed"
+            />
+
+        <Spinner
+            android:id="@+id/translate_to"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/translate_query"
+        android:layout_below="@id/text_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#7F7F7F"
+        android:textSize="20sp"
+        android:text="查询内容:"
+        />
+
+    <TextView
+        android:id="@+id/translae_qContent"
+        android:layout_toRightOf="@id/translate_query"
+        android:layout_below="@id/text_translate"
+        android:layout_alignBaseline="@id/translate_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#7F7F7F"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:text="查询内容"
+        />
+
+    <TextView
+        android:id="@+id/translate_query_result"
+        android:layout_below="@id/translate_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:textColor="#7F7F7F"
+        android:text="当前无查询结果"
+        />
+
+    <TextView
+        android:id="@+id/translate_message_info"
+        android:layout_below="@id/translate_query_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="13sp"
+        android:visibility="gone"
+        android:textColor="#7F7F7F"
+        android:layout_marginRight="30dp"
+        android:text="若查询错误，请检查您的输入"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/translate_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/translate_voice_selector"
+            android:layout_margin="3dp"
+            />
+
+        <EditText
+            android:id="@+id/translate_query_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="输入查询文本"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/translate_buttom_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="翻译"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

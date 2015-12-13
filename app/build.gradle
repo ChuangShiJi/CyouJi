@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    //数字签名证书以及秘钥文件的配置
+    //可以  在之后的打包  不同渠道进行设置和使用。。
+    signingConfigs {
+        Google {
+            keyAlias 'my_release_key'
+            keyPassword '654321'
+            storeFile file('../release.jks')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "chsj.chanyouji"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            //编译类型  release 的时候  设置为true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.Google
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+    //===配置软件包  打包的时候 针对不同的渠道  例如 收费版  免费版
+    productFlavors {
+        //渠道 的名称：这个名称会进行不同的打包  默认配置
+//        使用defaultConfig属于增量修改。
+//        //可以添加不同的渠道
+//        baiduMarket{
+//            minSdkVersion 10
+//            applicationId 'com.zhaoq_hero.baidu.app'
+//        }
+//        qihoo{
+//            minSdkVersion 10
+//            applicationId 'com.zhaoq_hero.qihoo.app'
+//        }
+
+
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:design:22.2.0'
+    compile 'org.xutils:xutils:3.0'
+    compile project(':library')
+    compile 'com.android.support:palette-v7:22.2.0'
+    compile 'com.google.code.gson:gson:2.4'
+}

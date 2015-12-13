@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/trip_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/trip_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher" />
+
+
+
+        <TextView
+            android:id="@+id/trip_plan_days_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/trip_imageview"
+
+            android:layout_alignParentBottom="true"
+            android:text="7天"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/trip_plan_nodes_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/trip_plan_days_count"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/trip_plan_days_count"
+            android:text="38个旅行地"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/trip_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/trip_plan_days_count"
+            android:layout_marginBottom="5dp"
+            android:text="日本全景七日游"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+
+        android:text="destfsdfdffsdf"
+        android:id="@+id/trip_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

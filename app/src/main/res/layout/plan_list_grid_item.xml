@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/plan_grid_item_icon"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/plan_grid_item_cName_zh"
+
+        style="@style/Countrytext"
+        android:layout_marginTop="10dp"
+        android:text="日本"
+         />
+
+    <TextView
+        android:id="@+id/plan_grid_item_cName_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/plan_grid_item_cName_zh"
+        android:layout_below="@id/plan_grid_item_cName_zh"
+        android:text="Japan"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/plan_grid__poi_count_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="#CC202020"
+        android:text="1006旅行地"
+        android:textColor="#fff"
+
+        />
+</RelativeLayout>

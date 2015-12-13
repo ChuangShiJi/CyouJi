@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="chsj.chanyouji.fragments.traveldiary.activitys.UserDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#d64097d8">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="蟬"
+            android:textColor="#f1f8f8f8"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/activity_user_detail_user_name_1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Cchang郭大猫"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/activity_user_details_user_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon_test" />
+
+        <TextView
+            android:id="@+id/activity_user_detail_user_name_2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/activity_user_details_user_icon"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Cchang郭大猫"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/activity_user_detail_user_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/activity_user_detail_user_name_2"
+            android:layout_toRightOf="@id/activity_user_detail_user_name_2" />
+
+        <TextView
+            android:id="@+id/activity_user_detail_trip_counts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/activity_user_details_user_icon"
+            android:layout_alignBottom="@id/activity_user_details_user_icon"
+            android:layout_below="@id/activity_user_detail_user_name_2"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/activity_user_details_user_icon"
+            android:gravity="bottom"
+            android:text="18篇游记" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/activity_user_detail_trip_counts"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#efdddddd"
+                android:drawableLeft="@mipmap/add_profile"
+                android:drawablePadding="-60dp"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:text="关注" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="#efdddddd"
+                android:drawableLeft="@mipmap/mail_profile"
+                android:drawablePadding="-60dp"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:text="私信" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#55a7a7a7" />
+
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/activity_user_detail_pf_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ChanYouJi</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_details">UserDetailsActivity</string>
+    <string name="title_activity_trip_details">TripDetailsActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_translate">translateActivity</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_exchange">ExchangeActivity</string>
+    <string name="title_activity_add_account">AddAccountActivity</string>
+    <string name="title_activity_allaccount">AllaccountActivity</string>
+    <string name="title_activity_select_city">SelectCity</string>
+    <string name="title_activity_info_strategy">InfoStrategyActivity</string>
+    <string name="title_activity_trip">TripActivity</string>
+    <string name="title_activity_travel_note">TravelNoteActivity</string>
+
+    <array name="datas">
+        <item>人民币</item>
+        <item>美元</item>
+        <item>日元</item>
+        <item>韩元</item>
+    </array>
+
+    <array name="languagefrom">
+        <item>中文</item>
+        <item>英语</item>
+        <item>俄语</item>
+        <item>粤语</item>
+        <item>日语</item>
+        <item>韩语</item>
+    </array>
+
+    <array name="languageTo">
+        <item>英语</item>
+        <item>俄语</item>
+        <item>中文</item>
+        <item>日语</item>
+        <item>韩语</item>
+    </array>
+
+</resources>

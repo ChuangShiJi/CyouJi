@@ -1,0 +1,30 @@
+
+
+//http://chanyouji.com/api/wiki/destinations/infos/55.json
+
+        //当地城市天气信息
+
+
+{
+  "temp_min": 12,
+  "temp_max": 15,
+  "current_time": "21:41，周五",
+  "urls_category_0": true,
+  "urls_category_1": false,
+  "language_code": "jp",
+  "currency_code": "JPY",
+  "currency_display": "日元",
+  "country_name": "japan"
+}
+
+{
+"temp_min": 28,
+"temp_max": 37,
+"current_time": "19:42，周五",
+"urls_category_0": true,
+"urls_category_1": false,
+"language_code": "th",
+"currency_code": "THB",
+"currency_display": "泰铢",
+"country_name": "thailand"
+}

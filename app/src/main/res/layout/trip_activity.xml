@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chsj.chanyouji.fragments.plan.TripActivity">
+
+    <LinearLayout
+        android:id="@+id/trip_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#5472ff">
+
+        <ImageView
+            android:id="@+id/trip_back"
+            android:onClick="operate"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/arrow_right_normal" />
+
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/trip_ptrlistview"
+        android:layout_below="@id/trip_linearlayout"></com.handmark.pulltorefresh.library.PullToRefreshListView>
+</RelativeLayout>

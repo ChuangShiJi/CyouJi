@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chsj.chanyouji.fragments.traveldiary.activitys.TripDetailsActivity">
+
+    <!--ScrollView-->
+
+    <chsj.chanyouji.fragments.traveldiary.widgets.MyScrollView
+        android:id="@+id/myScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical">
+
+
+            <!-- 图片层  高度200dp-->
+            <FrameLayout
+                android:id="@+id/fl_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/activity_tripdetails_cover_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_test" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_trip_detail_user_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/icon_test" />
+
+                    <TextView
+                        android:id="@+id/activity_trip_detail_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/activity_trip_detail_user_icon"
+                        android:singleLine="true"
+                        android:text="在台湾的光影与旋律--记11天浅环岛"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:id="@+id/activity_trip_detail_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_below="@id/activity_trip_detail_title"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/activity_trip_detail_user_icon"
+                        android:singleLine="true"
+                        android:text="在台湾的光影与旋律--记11天浅环岛"
+                        android:textColor="#fff" />
+                </RelativeLayout>
+            </FrameLayout>
+
+
+            <!--ListView层-->
+
+            <LinearLayout
+                android:id="@+id/ll_date_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_float"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="DAY1"
+                        android:textColor="#000"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <chsj.chanyouji.fragments.traveldiary.widgets.FullListView
+                android:id="@+id/activity_trip_details_full_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@drawable/divder"
+                android:dividerHeight="10dp">
+
+            </chsj.chanyouji.fragments.traveldiary.widgets.FullListView>
+
+        </LinearLayout>
+
+
+    </chsj.chanyouji.fragments.traveldiary.widgets.MyScrollView>
+
+
+    <!-- 顶部操作栏-->
+    <LinearLayout
+        android:id="@+id/ll_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="蟬"
+            android:textColor="#f1f8f8f8"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/icon_download" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/icon_train_like" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/navbar_share_normal" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/comment_c" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!-- 为悬浮视图占位-->
+    <LinearLayout
+        android:id="@+id/ll_date_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/float_selector"
+        app:borderWidth="0dp" />
+</FrameLayout>

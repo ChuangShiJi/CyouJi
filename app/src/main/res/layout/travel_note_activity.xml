@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/travel_note_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="chsj.chanyouji.fragments.plan.TravelNoteActivity">
+
+
+    <ListView
+        android:id="@+id/travel_note_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+
+            android:id="@+id/travel_note_relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/travel_note_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:onClick="operate"
+                android:src="@mipmap/arrow_right_normal" />
+
+            <ImageView
+                android:id="@+id/travel_note_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:onClick="operate"
+                android:src="@mipmap/navbar_share_normal" />
+
+            <ImageView
+                android:id="@+id/travel_note_collect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/travel_note_share"
+                android:onClick="operate"
+                android:src="@mipmap/collection_b" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/travel_note_add_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/travel_note_back"
+            android:background="#0fff"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</FrameLayout>

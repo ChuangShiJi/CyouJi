@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/plan_strategy_activity_info_item_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/plan_strategy_activity_info_item_countryname_zh"
+        style="@style/Countrytext"
+        android:text="日本" />
+
+    <TextView
+        android:id="@+id/plan_strategy_activity_info_item_countryname_en"
+        style="@style/Countrytext"
+        android:layout_alignBaseline="@id/plan_strategy_activity_info_item_countryname_zh"
+        android:layout_marginRight="3dp"
+        android:layout_toRightOf="@id/plan_strategy_activity_info_item_countryname_zh"
+        android:text="japan"
+
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/plan_strategy_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/download_destionation_selector" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/plan_strategy_activity_info_item_imageview"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/plan_strategy_tips"
+            style="@style/StrategyText"
+            android:drawableTop="@drawable/tips_destionation_selector"
+            android:text="攻略"></TextView>
+
+        <TextView
+            android:id="@+id/plan_strategy_trip"
+            style="@style/StrategyText"
+            android:drawableTop="@drawable/trip_destionation_selector"
+            android:text="行程" />
+
+        <TextView
+            android:id="@+id/plan_strategy_travel"
+            style="@style/StrategyText"
+            android:drawableTop="@drawable/travel_destionation_selector"
+            android:text="旅行地" />
+
+        <TextView
+            android:id="@+id/plan_strategy_special"
+            style="@style/StrategyText"
+            android:drawableTop="@drawable/special_destionation_selector"
+            android:text="专题" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="chsj.chanyouji.fragments.plan.InfoStrategyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#5472ff">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/plan_info_strategy_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="operate"
+            android:src="@mipmap/ic_back" />
+
+        <ImageView
+            android:id="@+id/plan_info_strategy_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="operate"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/navbar_share_normal" />
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/plan_info_strategy_ptrlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp">
+
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>>
+
+</LinearLayout>

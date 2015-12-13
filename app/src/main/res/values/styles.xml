@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- 自定义 工具箱中数据  RadioButton的样式 -->
+    <style name="ToolThemeRadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/tool_radiobtn_textcolor</item>
+    </style>
+
+
+    <!-- 旅行记账中所有textView样式  -->
+    <style name="AccountActivityTextTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">#292929</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <!--旅行日记中   线的整体样式-->
+    <style name="AccountThemeLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+
+    </style>
+    <!--whl-->
+    <!-- 国家名称字体样式-->
+    <style name="Countrytext">
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+      </style>
+    <!-- 行程，攻略旅行地textView样式-->
+    <style name="StrategyText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@drawable/textview_selector</item>
+    </style>
+
+    <!--   汇率换算页面注释结果 样式-->
+    <style name="ExchangeThemeLinearLayout">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>

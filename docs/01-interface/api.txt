@@ -1,0 +1,33 @@
+
+
+
+
+2.//攻略首页
+https://chanyouji.com/api/destinations.json                 --
+//攻略详情（id）
+https://chanyouji.com/api/destinations/55.json              --
+//1.点击相应攻略
+https://chanyouji.com/api/wiki/destinations/55.json         ??? --
+//2.点击相应行程 可刷新加载
+https://chanyouji.com/api/destinations/plans/55.json?page=1
+//点击行程中的图片进入详情页
+https://chanyouji.com/api/plans/1656.json
+//在详情页、中点击相应景点
+https://chanyouji.com/api/attractions/154578.json
+//图片按钮：
+https://chanyouji.com/api/attractions/photos/154578.json?page=1
+//游记按钮：
+https://chanyouji.com/api/attractions/154578.json?attraction_trips=true&page=1
+//地图按钮:
+//3.点击相应旅行地
+https://chanyouji.com/api/destinations/attractions/55.json?page=1
+//点击行程中的图片进入详情页（后同行程页）
+https://chanyouji.com/api/plans/1656.json
+//导航栏地图
+https://chanyouji.com/api/destinations/attractions/55.json?all=true
+//4.点击相应专题
+https://chanyouji.com/api/articles.json?destination_id=55&page=1
+//点击专题中图片进入详情页
+https://chanyouji.com/api/articles/76.json
+//相关旅行地
+https://chanyouji.com/api/attractions/35452.json

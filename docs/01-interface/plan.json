@@ -1,0 +1,47 @@
+//攻略首页
+//https://chanyouji.com/api/destinations.json
+[
+  {
+    "category": "1",
+    "destinations": [
+      {
+        "id": 55,
+        "name_zh_cn": "日本",
+        "name_en": "Japan",
+        "poi_count": 1006,
+        "lat": 36.2048,
+        "lng": 138.253,
+        "image_url": "http://m.chanyouji.cn/destinations/55-portrait.jpg",
+        "updated_at": 1435961025
+      }
+    ]
+  },
+  {
+    "category": "2",
+    "destinations": [
+      {
+        "id": 62,
+        "name_zh_cn": "法国",
+        "name_en": "France",
+        "poi_count": 311,
+        "lat": 46.2276,
+        "lng": 2.21375,
+        "image_url": "http://m.chanyouji.cn/destinations/62-portrait.jpg",
+        "updated_at": 1442435484
+      }
+    ]
+  }
+]
+//trips
+//https://chanyouji.com/api/destinations/plans/55.json?page=1
+{"id": 1693,
+"name": "日本全景7日游",
+"budget": 0,
+"start_date": null,
+"description": "京都的优雅，东京大阪的时尚，富士山的秀美，北海道的浪漫一次体验，7天最全面的日本游线路。",
+"plan_days_count": 7,
+"plan_nodes_count": 38,
+"user_name": "",
+"image_url": "http://m.chanyouji.cn/plans/1693.jpg",
+"updated_at": 1410504676
+}]

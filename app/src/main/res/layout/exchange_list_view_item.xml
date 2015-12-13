@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/exchange_list_view_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/vietnam"
+        />
+
+    <RelativeLayout
+        android:id="@+id/exchange_list_view_edit"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="23sp"
+            android:layout_margin="2dp"
+            android:layout_height="match_parent"
+            android:text="VND"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="#CDCDCD"
+            android:layout_margin="5dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/exchange_money"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="23sp"
+                android:focusable="true"
+                android:background="@null"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:text="0.00"/>
+
+            <TextView
+                android:id="@+id/exchange_money_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="3dp"
+                android:text="盾"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

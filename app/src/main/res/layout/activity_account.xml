@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="chsj.chanyouji.fragments.tools.activity.AccountActivity">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:background="#009BE1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/account_nav_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/tool_translate_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_ab_back_holo_dark"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="旅行记账"
+                android:layout_toRightOf="@id/tool_translate_back"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/account_nav_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="5sp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/account_nav_add_selector"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            style="@style/AccountActivityTextTheme"
+            android:text="消费总额"
+            />
+        <TextView
+            style="@style/AccountThemeLine"
+            android:layout_marginBottom="15dp"
+            android:background="#292929"
+            />
+        <TextView
+            android:id="@+id/account_all_sum"
+            android:layout_marginLeft="5dp"
+            style="@style/AccountActivityTextTheme"
+            android:text="共0.0盾"
+            android:textColor="#A8A8A8"
+             />
+        <TextView
+            style="@style/AccountThemeLine"
+            android:background="#A8A8A8"
+            android:layout_marginBottom="15dp"
+            />
+        <RelativeLayout
+            android:id="@+id/account_to_allaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="5dp"
+                style="@style/AccountActivityTextTheme"
+                android:text="查看消费统计"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_trips_arrow"
+                />
+        </RelativeLayout>
+        <TextView
+            style="@style/AccountThemeLine"
+            android:layout_marginBottom="15dp"
+            android:background="#A8A8A8"
+            />
+
+        <TextView
+            style="@style/AccountActivityTextTheme"
+            android:text="消费明细:"
+            />
+
+        <TextView
+            style="@style/AccountThemeLine"
+            android:paddingBottom="0dp"
+            android:background="#292929"
+            />
+    </LinearLayout>
+
+    <!-- 消费明细-->
+    <ListView
+        android:layout_margin="10dp"
+        android:id="@+id/account_details_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/account_clear_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:background="#00B7FF"
+        android:text="清空消费记录"
+        />
+
+</LinearLayout>

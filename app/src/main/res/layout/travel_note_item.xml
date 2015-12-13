@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/travel_note_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:text="DAY1东京"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_trips_timeline_memo"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="今日备忘" />
+
+    <TextView
+        android:id="@+id/travel_note_memo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <chsj.chanyouji.fragments.plan.FullListView
+        android:id="@+id/travel_note_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></chsj.chanyouji.fragments.plan.FullListView>
+</LinearLayout>

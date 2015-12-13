@@ -1,0 +1,666 @@
+
+
+//城市列表  :https://chanyouji.com/api/destinations/list.json
+
+{
+  "china_destinations": [
+    {
+      "id": 12,
+      "name": "台湾",
+      "destination_trips_count": 2488
+    },
+    {
+      "id": 13,
+      "name": "香港",
+      "destination_trips_count": 2145
+    },
+    {
+      "id": 14,
+      "name": "澳门",
+      "destination_trips_count": 700
+    },
+    {
+      "id": 16,
+      "name": "云南",
+      "destination_trips_count": 3372
+    },
+    {
+      "id": 25,
+      "name": "上海",
+      "destination_trips_count": 3037
+    },
+    {
+      "id": 20,
+      "name": "四川",
+      "destination_trips_count": 2682
+    },
+    {
+      "id": 35,
+      "name": "浙江",
+      "destination_trips_count": 2485
+    },
+    {
+      "id": 23,
+      "name": "北京",
+      "destination_trips_count": 2258
+    },
+    {
+      "id": 32,
+      "name": "广东",
+      "destination_trips_count": 2084
+    },
+    {
+      "id": 31,
+      "name": "江苏",
+      "destination_trips_count": 1831
+    },
+    {
+      "id": 22,
+      "name": "福建",
+      "destination_trips_count": 1635
+    },
+    {
+      "id": 26,
+      "name": "西藏",
+      "destination_trips_count": 1359
+    },
+    {
+      "id": 17,
+      "name": "陕西",
+      "destination_trips_count": 1310
+    },
+    {
+      "id": 11,
+      "name": "青海",
+      "destination_trips_count": 1265
+    },
+    {
+      "id": 28,
+      "name": "甘肃",
+      "destination_trips_count": 1183
+    },
+    {
+      "id": 21,
+      "name": "广西",
+      "destination_trips_count": 960
+    },
+    {
+      "id": 33,
+      "name": "山东",
+      "destination_trips_count": 834
+    },
+    {
+      "id": 37,
+      "name": "重庆",
+      "destination_trips_count": 791
+    },
+    {
+      "id": 27,
+      "name": "湖南",
+      "destination_trips_count": 782
+    },
+    {
+      "id": 18,
+      "name": "内蒙古",
+      "destination_trips_count": 711
+    },
+    {
+      "id": 24,
+      "name": "海南",
+      "destination_trips_count": 641
+    },
+    {
+      "id": 19,
+      "name": "湖北",
+      "destination_trips_count": 639
+    },
+    {
+      "id": 38,
+      "name": "辽宁",
+      "destination_trips_count": 559
+    },
+    {
+      "id": 10,
+      "name": "新疆",
+      "destination_trips_count": 551
+    },
+    {
+      "id": 36,
+      "name": "黑龙江",
+      "destination_trips_count": 535
+    },
+    {
+      "id": 34,
+      "name": "安徽",
+      "destination_trips_count": 518
+    },
+    {
+      "id": 40,
+      "name": "河南",
+      "destination_trips_count": 444
+    },
+    {
+      "id": 30,
+      "name": "山西",
+      "destination_trips_count": 442
+    },
+    {
+      "id": 44,
+      "name": "贵州",
+      "destination_trips_count": 440
+    },
+    {
+      "id": 42,
+      "name": "河北",
+      "destination_trips_count": 417
+    },
+    {
+      "id": 41,
+      "name": "天津",
+      "destination_trips_count": 409
+    },
+    {
+      "id": 29,
+      "name": "江西",
+      "destination_trips_count": 375
+    },
+    {
+      "id": 39,
+      "name": "吉林",
+      "destination_trips_count": 374
+    },
+    {
+      "id": 43,
+      "name": "宁夏",
+      "destination_trips_count": 249
+    }
+  ],
+
+  "other_destinations": [
+    {
+      "id": 55,
+      "name": "日本",
+      "destination_trips_count": 3347
+    },
+    {
+      "id": 45,
+      "name": "泰国",
+      "destination_trips_count": 2489
+    },
+    {
+      "id": 57,
+      "name": "美国",
+      "destination_trips_count": 1979
+    },
+    {
+      "id": 47,
+      "name": "韩国",
+      "destination_trips_count": 1297
+    },
+    {
+      "id": 62,
+      "name": "法国",
+      "destination_trips_count": 1114
+    },
+    {
+      "id": 71,
+      "name": "马来西亚",
+      "destination_trips_count": 1109
+    },
+    {
+      "id": 80,
+      "name": "意大利",
+      "destination_trips_count": 1085
+    },
+    {
+      "id": 67,
+      "name": "英国",
+      "destination_trips_count": 919
+    },
+    {
+      "id": 63,
+      "name": "德国",
+      "destination_trips_count": 864
+    },
+    {
+      "id": 53,
+      "name": "新加坡",
+      "destination_trips_count": 667
+    },
+    {
+      "id": 54,
+      "name": "柬埔寨",
+      "destination_trips_count": 628
+    },
+    {
+      "id": 61,
+      "name": "澳大利亚",
+      "destination_trips_count": 598
+    },
+    {
+      "id": 90,
+      "name": "瑞士",
+      "destination_trips_count": 592
+    },
+    {
+      "id": 77,
+      "name": "西班牙",
+      "destination_trips_count": 466
+    },
+    {
+      "id": 76,
+      "name": "印度尼西亚",
+      "destination_trips_count": 448
+    },
+    {
+      "id": 84,
+      "name": "奥地利",
+      "destination_trips_count": 443
+    },
+    {
+      "id": 49,
+      "name": "越南",
+      "destination_trips_count": 439
+    },
+    {
+      "id": 69,
+      "name": "土耳其",
+      "destination_trips_count": 401
+    },
+    {
+      "id": 73,
+      "name": "菲律宾",
+      "destination_trips_count": 327
+    },
+    {
+      "id": 68,
+      "name": "新西兰",
+      "destination_trips_count": 317
+    },
+    {
+      "id": 59,
+      "name": "马尔代夫",
+      "destination_trips_count": 306
+    },
+    {
+      "id": 48,
+      "name": "斯里兰卡",
+      "destination_trips_count": 288
+    },
+    {
+      "id": 60,
+      "name": "阿联酋",
+      "destination_trips_count": 283
+    },
+    {
+      "id": 81,
+      "name": "捷克",
+      "destination_trips_count": 283
+    },
+    {
+      "id": 72,
+      "name": "加拿大",
+      "destination_trips_count": 282
+    },
+    {
+      "id": 89,
+      "name": "荷兰",
+      "destination_trips_count": 281
+    },
+    {
+      "id": 56,
+      "name": "尼泊尔",
+      "destination_trips_count": 277
+    },
+    {
+      "id": 83,
+      "name": "希腊",
+      "destination_trips_count": 277
+    },
+    {
+      "id": 96,
+      "name": "俄罗斯",
+      "destination_trips_count": 257
+    },
+    {
+      "id": 99,
+      "name": "比利时",
+      "destination_trips_count": 194
+    },
+    {
+      "id": 46,
+      "name": "印度",
+      "destination_trips_count": 172
+    },
+    {
+      "id": 283,
+      "name": "新目的地",
+      "destination_trips_count": 171
+    },
+    {
+      "id": 65,
+      "name": "摩纳哥",
+      "destination_trips_count": 150
+    },
+    {
+      "id": 97,
+      "name": "匈牙利",
+      "destination_trips_count": 135
+    },
+    {
+      "id": 91,
+      "name": "芬兰",
+      "destination_trips_count": 123
+    },
+    {
+      "id": 92,
+      "name": "瑞典",
+      "destination_trips_count": 120
+    },
+    {
+      "id": 93,
+      "name": "丹麦",
+      "destination_trips_count": 112
+    },
+    {
+      "id": 85,
+      "name": "挪威",
+      "destination_trips_count": 105
+    },
+    {
+      "id": 101,
+      "name": "葡萄牙",
+      "destination_trips_count": 93
+    },
+    {
+      "id": 50,
+      "name": "缅甸",
+      "destination_trips_count": 91
+    },
+    {
+      "id": 82,
+      "name": "埃及",
+      "destination_trips_count": 85
+    },
+    {
+      "id": 75,
+      "name": "老挝",
+      "destination_trips_count": 82
+    },
+    {
+      "id": 108,
+      "name": "卡塔尔",
+      "destination_trips_count": 72
+    },
+    {
+      "id": 100,
+      "name": "南非",
+      "destination_trips_count": 69
+    },
+    {
+      "id": 107,
+      "name": "毛里求斯",
+      "destination_trips_count": 66
+    },
+    {
+      "id": 79,
+      "name": "墨西哥",
+      "destination_trips_count": 65
+    },
+    {
+      "id": 103,
+      "name": "列支敦士登",
+      "destination_trips_count": 64
+    },
+    {
+      "id": 70,
+      "name": "以色列",
+      "destination_trips_count": 54
+    },
+    {
+      "id": 66,
+      "name": "卢森堡",
+      "destination_trips_count": 49
+    },
+    {
+      "id": 104,
+      "name": "肯尼亚",
+      "destination_trips_count": 48
+    },
+    {
+      "id": 211,
+      "name": "伊朗",
+      "destination_trips_count": 48
+    },
+    {
+      "id": 94,
+      "name": "冰岛",
+      "destination_trips_count": 45
+    },
+    {
+      "id": 74,
+      "name": "爱尔兰",
+      "destination_trips_count": 38
+    },
+    {
+      "id": 109,
+      "name": "斯洛伐克",
+      "destination_trips_count": 38
+    },
+    {
+      "id": 102,
+      "name": "波兰",
+      "destination_trips_count": 34
+    },
+    {
+      "id": 210,
+      "name": "帕劳",
+      "destination_trips_count": 31
+    },
+    {
+      "id": 51,
+      "name": "朝鲜",
+      "destination_trips_count": 28
+    },
+    {
+      "id": 223,
+      "name": "约旦",
+      "destination_trips_count": 27
+    },
+    {
+      "id": 78,
+      "name": "巴西",
+      "destination_trips_count": 26
+    },
+    {
+      "id": 105,
+      "name": "斐济",
+      "destination_trips_count": 24
+    },
+    {
+      "id": 216,
+      "name": "波多黎各",
+      "destination_trips_count": 23
+    },
+    {
+      "id": 207,
+      "name": "塞舌尔",
+      "destination_trips_count": 21
+    },
+    {
+      "id": 208,
+      "name": "爱沙尼亚",
+      "destination_trips_count": 21
+    },
+    {
+      "id": 215,
+      "name": "克罗地亚",
+      "destination_trips_count": 21
+    },
+    {
+      "id": 112,
+      "name": "突尼斯",
+      "destination_trips_count": 19
+    },
+    {
+      "id": 95,
+      "name": "秘鲁",
+      "destination_trips_count": 18
+    },
+    {
+      "id": 106,
+      "name": "摩洛哥",
+      "destination_trips_count": 16
+    },
+    {
+      "id": 110,
+      "name": "斯洛文尼亚",
+      "destination_trips_count": 12
+    },
+    {
+      "id": 205,
+      "name": "马耳他",
+      "destination_trips_count": 12
+    },
+    {
+      "id": 52,
+      "name": "不丹",
+      "destination_trips_count": 11
+    },
+    {
+      "id": 87,
+      "name": "智利",
+      "destination_trips_count": 11
+    },
+    {
+      "id": 86,
+      "name": "阿根廷",
+      "destination_trips_count": 10
+    },
+    {
+      "id": 232,
+      "name": "巴基斯坦",
+      "destination_trips_count": 10
+    },
+    {
+      "id": 218,
+      "name": "马其顿共和国",
+      "destination_trips_count": 9
+    },
+    {
+      "id": 88,
+      "name": "古巴",
+      "destination_trips_count": 8
+    },
+    {
+      "id": 224,
+      "name": "立陶宛",
+      "destination_trips_count": 8
+    },
+    {
+      "id": 219,
+      "name": "塞尔维亚",
+      "destination_trips_count": 6
+    },
+    {
+      "id": 220,
+      "name": "黑山共和国",
+      "destination_trips_count": 6
+    },
+    {
+      "id": 221,
+      "name": "波黑共和国",
+      "destination_trips_count": 6
+    },
+    {
+      "id": 225,
+      "name": "哈萨克斯坦",
+      "destination_trips_count": 6
+    },
+    {
+      "id": 217,
+      "name": "塞浦路斯",
+      "destination_trips_count": 5
+    },
+    {
+      "id": 222,
+      "name": "保加利亚",
+      "destination_trips_count": 5
+    },
+    {
+      "id": 111,
+      "name": "坦桑尼亚",
+      "destination_trips_count": 4
+    },
+    {
+      "id": 372,
+      "name": "文莱",
+      "destination_trips_count": 4
+    },
+    {
+      "id": 212,
+      "name": "马达加斯加",
+      "destination_trips_count": 4
+    },
+    {
+      "id": 213,
+      "name": "南极",
+      "destination_trips_count": 4
+    },
+    {
+      "id": 233,
+      "name": "孟加拉国",
+      "destination_trips_count": 4
+    },
+    {
+      "id": 342,
+      "name": "蒙古国",
+      "destination_trips_count": 3
+    },
+    {
+      "id": 214,
+      "name": "哥斯达黎加",
+      "destination_trips_count": 3
+    },
+    {
+      "id": 237,
+      "name": "罗马尼亚",
+      "destination_trips_count": 3
+    },
+    {
+      "id": 229,
+      "name": "委内瑞拉",
+      "destination_trips_count": 2
+    },
+    {
+      "id": 252,
+      "name": "白俄罗斯",
+      "destination_trips_count": 2
+    },
+    {
+      "id": 228,
+      "name": "布隆迪",
+      "destination_trips_count": 1
+    },
+    {
+      "id": 230,
+      "name": "巴林",
+      "destination_trips_count": 1
+    },
+    {
+      "id": 241,
+      "name": "阿曼",
+      "destination_trips_count": 1
+    },
+    {
+      "id": 242,
+      "name": "吉布提",
+      "destination_trips_count": 1
+    },
+    {
+      "id": 243,
+      "name": "沙特阿拉伯",
+      "destination_trips_count": 1
+    }
+  ]
+}

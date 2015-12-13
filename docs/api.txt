@@ -1,0 +1,100 @@
+
+
+
+蝉游记
+
+
+//首页：
+https://chanyouji.com/api/trips/featured.json?page=1
+//点击滚动专题图片进入详情页（id）
+https://chanyouji.com/api/articles/612.json
+//点击下方图片进入详情页
+https://chanyouji.com/api/trips/190688.json
+//城市列表
+https://chanyouji.com/api/destinations/list.json
+
+
+
+
+//攻略
+https://chanyouji.com/api/destinations.json
+//攻略详情（id）
+https://chanyouji.com/api/destinations/55.json
+//1.点击相应攻略
+https://chanyouji.com/api/wiki/destinations/55.json
+//2.点击相应行程 可刷新加载
+https://chanyouji.com/api/destinations/plans/55.json?page=1
+//点击行程中的图片进入详情页
+https://chanyouji.com/api/plans/1656.json
+//在详情页、中点击相应景点
+https://chanyouji.com/api/attractions/154578.json
+//图片按钮：
+https://chanyouji.com/api/attractions/photos/154578.json?page=1
+//游记按钮：
+https://chanyouji.com/api/attractions/154578.json?attraction_trips=true&page=1
+//地图按钮:
+//3.点击相应旅行地
+https://chanyouji.com/api/destinations/attractions/55.json?page=1
+//点击行程中的图片进入详情页（后同行程页）
+https://chanyouji.com/api/plans/1656.json
+//导航栏地图
+https://chanyouji.com/api/destinations/attractions/55.json?all=true
+//4.点击相应专题
+https://chanyouji.com/api/articles.json?destination_id=55&page=1
+//点击专题中图片进入详情页
+https://chanyouji.com/api/articles/76.json
+//相关旅行地
+https://chanyouji.com/api/attractions/35452.json
+
+
+//工具箱—>选择目的地
+http://chanyouji.com/api/wiki/destinations.json
+//点击相应目的地进入工具箱详情（152代表杭州id(NSNumber)）
+http://chanyouji.com/api/wiki/destinations/infos/152.json
+
+//旅行地图
+http://chanyouji.com/api/destinations/attractions/152.json?all=true
+
+
+#define kTravelNotes @"http://chanyouji.com/api/trips/featured.json?page=%ld"
+#define kSubject @"http://chanyouji.com/api/articles.json?page=%ld"
+
+#define kTripsDetail @"http://chanyouji.com/api/trips/%@.json"
+#define kArticlesDetail @"http://chanyouji.com/api/articles/%@.json"
+
+#define kSearch @"http://chanyouji.com/api/destinations/trips/%@.json?month=%ld&page=%ld"
+#define kSeason @"http://chanyouji.com/api/trips/month/%@.json?month=%ld&page=%ld"
+#define kUserDetail @"http://chanyouji.com/api/users/%@.json?page=%ld"
+
+//攻略
+#define kStrategy @"http://chanyouji.com/api/destinations.json?page=1"
+#define kStrategyDrtail @"http://chanyouji.com/api/destinations/%@.json?page=%ld"
+
+#define kDetailStrategy @"http://chanyouji.com/api/wiki/destinations/%@.json?page=%ld"
+#define kDetailSubject @"http://chanyouji.com/api/articles.json?destination_id=%@&page=%ld"
+#define kDetailRoute @"http://chanyouji.com/api/destinations/plans/%@.json?page=%ld"
+#define kPlaneDetail @"http://chanyouji.com/api/plans/%@.json?page=%ld"
+#define kDetailTravel @"http://chanyouji.com/api/destinations/attractions/%@.json?per_page=20&page=%ld"
+#define kEntry_nameDetail @"http://chanyouji.com/api/attractions/%@.json?page=1"
+#define kEntry_namePhoto @"http://chanyouji.com/api/attractions/%@/photos.json?per_page=20&page=%ld"
+
+#define kStrategyTravel @"http://chanyouji.com/api/destinations/attractions/%@.json?per_page=20&page=%ld"
+#define kNear @"http://chanyouji.com/api/attractions.json?lat=%f&lng=%f&page=%ld"
+
+
+//工具箱
+#define kToolkit @"http://chanyouji.com/api/wiki/destinations/infos/%@.json?page=1"
+#define kDestination @"http://chanyouji.com/api/wiki/destinations.json?page=1"
+#define kTravelMap @"http://chanyouji.com/api/destinations/attractions/%@.json?all=true"
+#define kTranslation @"http://openapi.baidu.com/public/2.0/bmt/translate?client_id=jxmbjt5uVUhh1e9VGN2AuyuY&from=auto&q=%@&to=%@"
+#define kSuggest @"http://chanyouji.com/api/feedbacks"
+
+
+
+#define kLogin @"http://chanyouji.com/api/tokens"
+#define kRegister @"http://chanyouji.com/api/users.json"
+#define kJoinFriend @"http://chanyouji.com/api/friends.json"
+#define kSendMessage @"http://chanyouji.com/api/private_messages.json"
+#define kSixin @"http://chanyouji.com/api/private_messages/%@.json?per_page=20&page=1"
+//116112-519245
+#define kFavorite @"http://chanyouji.com/api/favorites"

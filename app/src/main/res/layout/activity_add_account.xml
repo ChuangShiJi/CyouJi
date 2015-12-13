@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="chsj.chanyouji.fragments.tools.activity.AddAccountActivity">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:background="#009BE1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/addaccount_activity_nav_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/tool_translate_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_ab_back_holo_dark"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加消费记录"
+                android:layout_toRightOf="@id/tool_translate_back"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/addaccount_activity_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="5sp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/add_account_nav_finsh_selector"
+            />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/add_account_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入消费金额"
+        android:numeric="integer"
+        android:gravity="right"
+        android:textSize="30sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/add_account_more"
+                style="@style/ToolThemeRadioButton"
+                android:drawableTop="@drawable/add_account_more_selector"
+                android:textSize="15sp"
+                android:textColor="@color/add_activity_account_radiobtn_textcolor"
+                android:checked="true"
+                android:text="其他"
+                />
+            <RadioButton
+                android:id="@+id/add_account_tickets"
+                style="@style/ToolThemeRadioButton"
+                android:textSize="15sp"
+                android:textColor="@color/add_activity_account_radiobtn_textcolor"
+                android:drawableTop="@drawable/add_account_ticket_selector"
+                android:text="门票"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/add_account_traffic"
+                style="@style/ToolThemeRadioButton"
+                android:textColor="@color/add_activity_account_radiobtn_textcolor"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/add_account_traffic_selector"
+                android:text="交通"
+                />
+            <RadioButton
+                android:id="@+id/add_account_shopping"
+                style="@style/ToolThemeRadioButton"
+                android:textSize="15sp"
+                android:textColor="@color/add_activity_account_radiobtn_textcolor"
+                android:drawableTop="@drawable/add_account_shopping_selector"
+                android:text="购物"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/add_account_food"
+                style="@style/ToolThemeRadioButton"
+                android:textColor="@color/add_activity_account_radiobtn_textcolor"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/add_account_food_selector"
+                android:text="餐饮"
+                />
+
+            <RadioButton
+                android:id="@+id/add_account_entertainment"
+                android:textColor="@color/add_activity_account_radiobtn_textcolor"
+                style="@style/ToolThemeRadioButton"
+                android:textSize="15sp"
+                android:drawableTop="@drawable/add_account_entertainment_selector"
+                android:text="娱乐"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:textColor="@color/add_activity_account_radiobtn_textcolor"
+                style="@style/ToolThemeRadioButton"
+                android:textSize="15sp"
+                android:id="@+id/add_account_hotel"
+                android:drawableTop="@drawable/add_account_hotel_selector"
+                android:text="住宿"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="货币单位:"
+            android:textSize="15sp"
+            />
+
+        <Spinner
+            android:id="@+id/add_account_spinner"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="消费明细:"
+            android:textSize="15sp"
+            />
+
+        <EditText
+            android:id="@+id/add_account_consume_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入消费明细"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

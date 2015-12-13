@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:descendantFocusability="blocksDescendants"
+
+    >
+
+    <TextView
+        android:id="@+id/detail_consume_pattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主题:"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/consume_pattern"
+        android:layout_below="@id/detail_consume_pattern"
+        android:layout_width="wrap_content"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:text="消费方式:"/>
+
+    <TextView
+        android:id="@+id/consume_money"
+        android:layout_alignBaseline="@id/consume_pattern"
+        android:layout_toRightOf="@id/consume_pattern"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textSize="13sp"
+        android:layout_height="wrap_content"
+        android:text="金额"/>
+
+    <TextView
+        android:id="@+id/consume_condition"
+        android:layout_below="@id/consume_pattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:text="明细 : 无"/>
+
+    <ImageButton
+        android:id="@+id/detail_imageBtn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_delete"
+        android:baselineAlignBottom="true"
+        android:layout_alignBaseline="@id/consume_condition"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/detail_date_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日期"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:layout_toLeftOf="@id/detail_imageBtn_delete"
+        android:layout_marginRight="15dp"
+        android:layout_alignBaseline="@id/detail_imageBtn_delete"
+        android:textColor="#0f0"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="chsj.chanyouji.fragments.tools.activity.SelectCityActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#009BE1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/select_activity_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tool_translate_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_ab_back_holo_dark"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择目的地"
+                android:layout_toRightOf="@id/tool_translate_back"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/select_activity_tab"
+        android:layout_width ="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="#009BE1"
+        app:tabIndicatorHeight="3dp"
+        app:tabSelectedTextColor="#009BE1"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/select_activity_view_pager"
+        android:layout_width ="match_parent"
+        android:layout_height ="0dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

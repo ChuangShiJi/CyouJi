@@ -1,0 +1,1392 @@
+
+//城市列表 以及城市的 所有 可旅游城市
+        //http://chanyouji.com/api/wiki/destinations.json
+
+[
+  {
+    "category": "1",
+    "destinations": [
+      {
+        "id": 55,
+        "name_zh_cn": "日本",
+        "name_en": "Japan",
+        "image_url": "http://m.chanyouji.cn/destinations/55-portrait.jpg",
+        "children": [
+          {
+            "id": 55,
+            "name_zh_cn": "日本",
+            "name_en": "Japan",
+            "locked": false,
+            "destination_trips_count": 3364,
+            "image_url": "http://m.chanyouji.cn/destinations/55-landscape.jpg",
+            "items_count": 55
+          },
+          {
+            "id": 165,
+            "name_zh_cn": "东京",
+            "name_en": "Tokyo",
+            "locked": false,
+            "destination_trips_count": 1620,
+            "image_url": "http://m.chanyouji.cn/destinations/165-landscape.jpg",
+            "items_count": 27
+          },
+          {
+            "id": 167,
+            "name_zh_cn": "关西",
+            "name_en": "Kansai",
+            "locked": false,
+            "destination_trips_count": 1577,
+            "image_url": "http://m.chanyouji.cn/destinations/167-landscape.jpg",
+            "items_count": 29
+          },
+          {
+            "id": 166,
+            "name_zh_cn": "北海道",
+            "name_en": "Hokkaido",
+            "locked": false,
+            "destination_trips_count": 462,
+            "image_url": "http://m.chanyouji.cn/destinations/166-landscape.jpg",
+            "items_count": 11
+          },
+          {
+            "id": 373,
+            "name_zh_cn": "九州",
+            "name_en": "Kyushu",
+            "locked": false,
+            "destination_trips_count": 324,
+            "image_url": "http://m.chanyouji.cn/destinations/373-landscape.jpg",
+            "items_count": 9
+          },
+          {
+            "id": 203,
+            "name_zh_cn": "冲绳",
+            "name_en": "Okinawa",
+            "locked": false,
+            "destination_trips_count": 180,
+            "image_url": "http://m.chanyouji.cn/destinations/203-landscape.jpg",
+            "items_count": 7
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name_zh_cn": "泰国",
+        "name_en": "Thailand",
+        "image_url": "http://m.chanyouji.cn/destinations/45-portrait.jpg",
+        "children": [
+          {
+            "id": 45,
+            "name_zh_cn": "泰国",
+            "name_en": "Thailand",
+            "locked": false,
+            "destination_trips_count": 2490,
+            "image_url": "http://m.chanyouji.cn/destinations/45-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 114,
+            "name_zh_cn": "曼谷",
+            "name_en": "Bangkok",
+            "locked": false,
+            "destination_trips_count": 1373,
+            "image_url": "http://m.chanyouji.cn/destinations/114-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 115,
+            "name_zh_cn": "清迈与泰国北部",
+            "name_en": "Chiang Mai",
+            "locked": false,
+            "destination_trips_count": 997,
+            "image_url": "http://m.chanyouji.cn/destinations/115-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 116,
+            "name_zh_cn": "普吉与安达曼海",
+            "name_en": "Phuket",
+            "locked": false,
+            "destination_trips_count": 869,
+            "image_url": "http://m.chanyouji.cn/destinations/116-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 187,
+            "name_zh_cn": "芭堤雅",
+            "name_en": "Pattaya",
+            "locked": false,
+            "destination_trips_count": 484,
+            "image_url": "http://m.chanyouji.cn/destinations/187-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 226,
+            "name_zh_cn": "苏梅岛",
+            "name_en": "Koh Samui",
+            "locked": false,
+            "destination_trips_count": 198,
+            "image_url": "http://m.chanyouji.cn/destinations/226-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 227,
+            "name_zh_cn": "华欣",
+            "name_en": "Hua Hin",
+            "locked": false,
+            "destination_trips_count": 65,
+            "image_url": "http://m.chanyouji.cn/destinations/227-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "name_zh_cn": "韩国",
+        "name_en": "South Korea",
+        "image_url": "http://m.chanyouji.cn/destinations/47-portrait.jpg",
+        "children": [
+          {
+            "id": 47,
+            "name_zh_cn": "韩国",
+            "name_en": "South Korea",
+            "locked": false,
+            "destination_trips_count": 1300,
+            "image_url": "http://m.chanyouji.cn/destinations/47-landscape1.jpg",
+            "items_count": 32
+          },
+          {
+            "id": 163,
+            "name_zh_cn": "首尔",
+            "name_en": "Seoul",
+            "locked": false,
+            "destination_trips_count": 974,
+            "image_url": "http://m.chanyouji.cn/destinations/163-landscape.jpg",
+            "items_count": 21
+          },
+          {
+            "id": 164,
+            "name_zh_cn": "济州岛",
+            "name_en": "Jeju Island",
+            "locked": false,
+            "destination_trips_count": 551,
+            "image_url": "http://m.chanyouji.cn/destinations/164-landscape.jpg",
+            "items_count": 16
+          }
+        ]
+      },
+      {
+        "id": 71,
+        "name_zh_cn": "马来西亚",
+        "name_en": "Malaysia",
+        "image_url": "http://m.chanyouji.cn/destinations/71-portrait.jpg",
+        "children": [
+          {
+            "id": 71,
+            "name_zh_cn": "马来西亚",
+            "name_en": "Malaysia",
+            "locked": false,
+            "destination_trips_count": 1109,
+            "image_url": "http://m.chanyouji.cn/destinations/71-landscape.jpg",
+            "items_count": 47
+          },
+          {
+            "id": 118,
+            "name_zh_cn": "吉隆坡",
+            "name_en": "Kuala Lumpur",
+            "locked": false,
+            "destination_trips_count": 691,
+            "image_url": "http://m.chanyouji.cn/destinations/118-landscape.jpg",
+            "items_count": 16
+          },
+          {
+            "id": 119,
+            "name_zh_cn": "沙巴",
+            "name_en": "Sabah",
+            "locked": false,
+            "destination_trips_count": 465,
+            "image_url": "http://m.chanyouji.cn/destinations/119-landscape.jpg",
+            "items_count": 27
+          },
+          {
+            "id": 234,
+            "name_zh_cn": "槟城",
+            "name_en": "Pulau Pinang",
+            "locked": false,
+            "destination_trips_count": 157,
+            "image_url": "http://m.chanyouji.cn/destinations/234-landscape.jpg",
+            "items_count": 4
+          },
+          {
+            "id": 235,
+            "name_zh_cn": "兰卡威",
+            "name_en": "Langkawi",
+            "locked": false,
+            "destination_trips_count": 136,
+            "image_url": "http://m.chanyouji.cn/destinations/235-landscape.jpg",
+            "items_count": 12
+          },
+          {
+            "id": 236,
+            "name_zh_cn": "热浪岛与停泊岛",
+            "name_en": "Pulau Redang",
+            "locked": false,
+            "destination_trips_count": 67,
+            "image_url": "http://m.chanyouji.cn/destinations/236-landscape.jpg",
+            "items_count": 4
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "name_zh_cn": "新加坡",
+        "name_en": "Singapore",
+        "image_url": "http://m.chanyouji.cn/destinations/53-portrait.jpg",
+        "children": [
+          {
+            "id": 53,
+            "name_zh_cn": "新加坡",
+            "name_en": "Singapore",
+            "locked": false,
+            "destination_trips_count": 667,
+            "image_url": "http://m.chanyouji.cn/destinations/53-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name_zh_cn": "柬埔寨",
+        "name_en": "Cambodia",
+        "image_url": "http://m.chanyouji.cn/destinations/54-portrait.jpg",
+        "children": [
+          {
+            "id": 54,
+            "name_zh_cn": "柬埔寨",
+            "name_en": "Cambodia",
+            "locked": false,
+            "destination_trips_count": 629,
+            "image_url": "http://m.chanyouji.cn/destinations/54-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 117,
+            "name_zh_cn": "暹粒",
+            "name_en": "Siem Reap",
+            "locked": false,
+            "destination_trips_count": 608,
+            "image_url": "http://m.chanyouji.cn/destinations/117-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 262,
+            "name_zh_cn": "金边",
+            "name_en": "Phnom Penh",
+            "locked": false,
+            "destination_trips_count": 140,
+            "image_url": "http://m.chanyouji.cn/destinations/262-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "name_zh_cn": "印度尼西亚",
+        "name_en": "Indonesia",
+        "image_url": "http://m.chanyouji.cn/destinations/76-portait.jpg",
+        "children": [
+          {
+            "id": 76,
+            "name_zh_cn": "印度尼西亚",
+            "name_en": "Indonesia",
+            "locked": false,
+            "destination_trips_count": 449,
+            "image_url": "http://m.chanyouji.cn/destinations/76-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 122,
+            "name_zh_cn": "巴厘岛",
+            "name_en": "Bali",
+            "locked": false,
+            "destination_trips_count": 388,
+            "image_url": "http://m.chanyouji.cn/destinations/122-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 265,
+            "name_zh_cn": "爪哇岛",
+            "name_en": "Java",
+            "locked": false,
+            "destination_trips_count": 62,
+            "image_url": "http://m.chanyouji.cn/destinations/265-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "name_zh_cn": "越南",
+        "name_en": "Vietnam",
+        "image_url": "http://m.chanyouji.cn/destinations/49-portrait.jpg",
+        "children": [
+          {
+            "id": 49,
+            "name_zh_cn": "越南",
+            "name_en": "Vietnam",
+            "locked": false,
+            "destination_trips_count": 439,
+            "image_url": "http://m.chanyouji.cn/destinations/49-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 244,
+            "name_zh_cn": "胡志明市",
+            "name_en": "Ho Chi Minh",
+            "locked": false,
+            "destination_trips_count": 252,
+            "image_url": "http://m.chanyouji.cn/destinations/244-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 245,
+            "name_zh_cn": "美奈,芽庄与大叻",
+            "name_en": "Binh Thuan Province",
+            "locked": false,
+            "destination_trips_count": 239,
+            "image_url": "http://m.chanyouji.cn/destinations/245-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 248,
+            "name_zh_cn": "岘港,顺化与会安",
+            "name_en": "Quang Nam Province",
+            "locked": false,
+            "destination_trips_count": 191,
+            "image_url": "http://m.chanyouji.cn/destinations/248-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 251,
+            "name_zh_cn": "河内",
+            "name_en": "Hanoi",
+            "locked": false,
+            "destination_trips_count": 167,
+            "image_url": "http://m.chanyouji.cn/destinations/251-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "name_zh_cn": "菲律宾",
+        "name_en": "Philippines",
+        "image_url": "http://m.chanyouji.cn/destinations/73-portrait.jpg",
+        "children": [
+          {
+            "id": 73,
+            "name_zh_cn": "菲律宾",
+            "name_en": "Philippines",
+            "locked": false,
+            "destination_trips_count": 327,
+            "image_url": "http://m.chanyouji.cn/destinations/73-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 121,
+            "name_zh_cn": "长滩岛",
+            "name_en": "Boracay",
+            "locked": false,
+            "destination_trips_count": 185,
+            "image_url": "http://m.chanyouji.cn/destinations/121-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 261,
+            "name_zh_cn": "马尼拉",
+            "name_en": "Manila",
+            "locked": false,
+            "destination_trips_count": 158,
+            "image_url": "http://m.chanyouji.cn/destinations/261-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 259,
+            "name_zh_cn": "薄荷岛与宿雾",
+            "name_en": "Bohol and Cebu",
+            "locked": false,
+            "destination_trips_count": 100,
+            "image_url": "http://m.chanyouji.cn/destinations/259-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 260,
+            "name_zh_cn": "巴拉望",
+            "name_en": "Palawan",
+            "locked": false,
+            "destination_trips_count": 32,
+            "image_url": "http://m.chanyouji.cn/destinations/260-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "name_zh_cn": "尼泊尔",
+        "name_en": "Nepal",
+        "image_url": "http://m.chanyouji.cn/destinations/56-portrait.png",
+        "children": [
+          {
+            "id": 56,
+            "name_zh_cn": "尼泊尔",
+            "name_en": "Nepal",
+            "locked": false,
+            "destination_trips_count": 278,
+            "image_url": "http://m.chanyouji.cn/destinations/56-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 269,
+            "name_zh_cn": "加德满都谷地",
+            "name_en": "Kathmandu Valley",
+            "locked": false,
+            "destination_trips_count": 252,
+            "image_url": "http://m.chanyouji.cn/destinations/269-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 270,
+            "name_zh_cn": "博卡拉",
+            "name_en": "Pokhara",
+            "locked": false,
+            "destination_trips_count": 199,
+            "image_url": "http://m.chanyouji.cn/destinations/270-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 271,
+            "name_zh_cn": "奇特旺",
+            "name_en": "Chitwan",
+            "locked": false,
+            "destination_trips_count": 96,
+            "image_url": "http://m.chanyouji.cn/destinations/271-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name_zh_cn": "缅甸",
+        "name_en": "Myanmar",
+        "image_url": "http://m.chanyouji.cn/destinations/50-portrait1.jpg",
+        "children": [
+          {
+            "id": 50,
+            "name_zh_cn": "缅甸",
+            "name_en": "Myanmar",
+            "locked": false,
+            "destination_trips_count": 91,
+            "image_url": "http://m.chanyouji.cn/destinations/50-landscape1.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 257,
+            "name_zh_cn": "蒲甘",
+            "name_en": "Bagan",
+            "locked": false,
+            "destination_trips_count": 64,
+            "image_url": "http://m.chanyouji.cn/destinations/257-landscape1.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 256,
+            "name_zh_cn": "曼德勒",
+            "name_en": "Mandalay",
+            "locked": false,
+            "destination_trips_count": 57,
+            "image_url": "http://m.chanyouji.cn/destinations/256-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 255,
+            "name_zh_cn": "仰光",
+            "name_en": "Yangon",
+            "locked": false,
+            "destination_trips_count": 57,
+            "image_url": "http://m.chanyouji.cn/destinations/255-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 258,
+            "name_zh_cn": "茵莱",
+            "name_en": "Inle",
+            "locked": false,
+            "destination_trips_count": 33,
+            "image_url": "http://m.chanyouji.cn/destinations/258-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "2",
+    "destinations": [
+      {
+        "id": 62,
+        "name_zh_cn": "法国",
+        "name_en": "France",
+        "image_url": "http://m.chanyouji.cn/destinations/62-portrait.jpg",
+        "children": [
+          {
+            "id": 62,
+            "name_zh_cn": "法国",
+            "name_en": "France",
+            "locked": false,
+            "destination_trips_count": 1118,
+            "image_url": "http://m.chanyouji.cn/destinations/62-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 188,
+            "name_zh_cn": "巴黎",
+            "name_en": "Paris",
+            "locked": false,
+            "destination_trips_count": 842,
+            "image_url": "http://m.chanyouji.cn/destinations/188-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 189,
+            "name_zh_cn": "尼斯与蔚蓝海岸",
+            "name_en": "Nice",
+            "locked": false,
+            "destination_trips_count": 207,
+            "image_url": "http://m.chanyouji.cn/destinations/189-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 290,
+            "name_zh_cn": "普罗旺斯",
+            "name_en": "Provence",
+            "locked": false,
+            "destination_trips_count": 190,
+            "image_url": "http://m.chanyouji.cn/destinations/290-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "name_zh_cn": "意大利",
+        "name_en": "Italy",
+        "image_url": "http://m.chanyouji.cn/destinations/80-portrait.jpg",
+        "children": [
+          {
+            "id": 80,
+            "name_zh_cn": "意大利",
+            "name_en": "Italy",
+            "locked": false,
+            "destination_trips_count": 1087,
+            "image_url": "http://m.chanyouji.cn/destinations/80-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 178,
+            "name_zh_cn": "罗马",
+            "name_en": "Rome",
+            "locked": false,
+            "destination_trips_count": 630,
+            "image_url": "http://m.chanyouji.cn/destinations/178-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 182,
+            "name_zh_cn": "威尼斯",
+            "name_en": "Venice",
+            "locked": false,
+            "destination_trips_count": 593,
+            "image_url": "http://m.chanyouji.cn/destinations/182-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 185,
+            "name_zh_cn": "佛罗伦萨及其周边",
+            "name_en": "Florence",
+            "locked": false,
+            "destination_trips_count": 587,
+            "image_url": "http://m.chanyouji.cn/destinations/185-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 183,
+            "name_zh_cn": "米兰",
+            "name_en": "Milan",
+            "locked": false,
+            "destination_trips_count": 415,
+            "image_url": "http://m.chanyouji.cn/destinations/183-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 308,
+            "name_zh_cn": "那不勒斯与西西里岛",
+            "name_en": "Naples and Sicily",
+            "locked": false,
+            "destination_trips_count": 143,
+            "image_url": "http://m.chanyouji.cn/destinations/308-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 63,
+        "name_zh_cn": "德国",
+        "name_en": "Germany",
+        "image_url": "http://m.chanyouji.cn/destinations/39-portrait.jpg",
+        "children": [
+          {
+            "id": 63,
+            "name_zh_cn": "德国",
+            "name_en": "Germany",
+            "locked": false,
+            "destination_trips_count": 869,
+            "image_url": "http://m.chanyouji.cn/destinations/39-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 339,
+            "name_zh_cn": "巴伐利亚州 ",
+            "name_en": "Freistaat Bayern",
+            "locked": false,
+            "destination_trips_count": 486,
+            "image_url": "http://m.chanyouji.cn/destinations/339-landscape-hb.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 335,
+            "name_zh_cn": "法兰克福",
+            "name_en": "Frankfurt am Main",
+            "locked": false,
+            "destination_trips_count": 289,
+            "image_url": "http://m.chanyouji.cn/destinations/335-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 397,
+            "name_zh_cn": "巴登-符腾堡州",
+            "name_en": "Baden-Wurttemberg",
+            "locked": false,
+            "destination_trips_count": 218,
+            "image_url": "http://m.chanyouji.cn/destinations/397-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 172,
+            "name_zh_cn": "柏林",
+            "name_en": "Berlin",
+            "locked": false,
+            "destination_trips_count": 168,
+            "image_url": "http://m.chanyouji.cn/destinations/172-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 336,
+            "name_zh_cn": "科隆",
+            "name_en": "Cologne&Bonn",
+            "locked": false,
+            "destination_trips_count": 144,
+            "image_url": "http://m.chanyouji.cn/destinations/336-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "name_zh_cn": "瑞士",
+        "name_en": "Switzerland",
+        "image_url": "http://m.chanyouji.cn/destinations/90-portrait.jpg",
+        "children": [
+          {
+            "id": 90,
+            "name_zh_cn": "瑞士",
+            "name_en": "Switzerland",
+            "locked": false,
+            "destination_trips_count": 597,
+            "image_url": "http://m.chanyouji.cn/destinations/90-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 285,
+            "name_zh_cn": "琉森",
+            "name_en": "Luzern",
+            "locked": false,
+            "destination_trips_count": 377,
+            "image_url": "http://m.chanyouji.cn/destinations/285-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 286,
+            "name_zh_cn": "少女峰与因特拉肯",
+            "name_en": "Jungfrau and Interlaken",
+            "locked": false,
+            "destination_trips_count": 351,
+            "image_url": "http://m.chanyouji.cn/destinations/286-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 284,
+            "name_zh_cn": "苏黎世",
+            "name_en": "Zurich",
+            "locked": false,
+            "destination_trips_count": 245,
+            "image_url": "http://m.chanyouji.cn/destinations/284-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 282,
+            "name_zh_cn": "莱芒湖",
+            "name_en": "Lake Leman",
+            "locked": false,
+            "destination_trips_count": 228,
+            "image_url": "http://m.chanyouji.cn/destinations/282-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "name_zh_cn": "西班牙",
+        "name_en": "Spain",
+        "image_url": "http://m.chanyouji.cn/destinations/77-portrait.jpg",
+        "children": [
+          {
+            "id": 77,
+            "name_zh_cn": "西班牙",
+            "name_en": "Spain",
+            "locked": false,
+            "destination_trips_count": 468,
+            "image_url": "http://m.chanyouji.cn/destinations/77-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 176,
+            "name_zh_cn": "巴塞罗那",
+            "name_en": "Barcelona",
+            "locked": false,
+            "destination_trips_count": 318,
+            "image_url": "http://m.chanyouji.cn/destinations/176-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 177,
+            "name_zh_cn": "马德里",
+            "name_en": "Madrid",
+            "locked": false,
+            "destination_trips_count": 221,
+            "image_url": "http://m.chanyouji.cn/destinations/177-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 363,
+            "name_zh_cn": "安达卢西亚",
+            "name_en": "Andalusia",
+            "locked": false,
+            "destination_trips_count": 153,
+            "image_url": "http://m.chanyouji.cn/destinations/363-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 364,
+            "name_zh_cn": "瓦伦西亚",
+            "name_en": "VALENCIA",
+            "locked": false,
+            "destination_trips_count": 40,
+            "image_url": "http://m.chanyouji.cn/destinations/364-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "name_zh_cn": "奥地利",
+        "name_en": "Austria",
+        "image_url": "http://m.chanyouji.cn/destinations/84-portrait.jpg",
+        "children": [
+          {
+            "id": 84,
+            "name_zh_cn": "奥地利",
+            "name_en": "Austria",
+            "locked": false,
+            "destination_trips_count": 445,
+            "image_url": "http://m.chanyouji.cn/destinations/84-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 171,
+            "name_zh_cn": "维也纳",
+            "name_en": "Vienna",
+            "locked": false,
+            "destination_trips_count": 283,
+            "image_url": "http://m.chanyouji.cn/destinations/171-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 310,
+            "name_zh_cn": "萨尔茨堡",
+            "name_en": "Salzburg",
+            "locked": false,
+            "destination_trips_count": 176,
+            "image_url": "http://m.chanyouji.cn/destinations/310-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "name_zh_cn": "土耳其",
+        "name_en": "Turkey",
+        "image_url": "http://m.chanyouji.cn/destinations/69-portrait.jpg",
+        "children": [
+          {
+            "id": 69,
+            "name_zh_cn": "土耳其",
+            "name_en": "Turkey",
+            "locked": false,
+            "destination_trips_count": 402,
+            "image_url": "http://m.chanyouji.cn/destinations/69-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 174,
+            "name_zh_cn": "伊斯坦布尔",
+            "name_en": "Istanbul",
+            "locked": false,
+            "destination_trips_count": 326,
+            "image_url": "http://m.chanyouji.cn/destinations/174_1-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 307,
+            "name_zh_cn": "卡帕多西亚",
+            "name_en": "Cappadocia",
+            "locked": false,
+            "destination_trips_count": 247,
+            "image_url": "http://m.chanyouji.cn/destinations/307-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "name_zh_cn": "捷克",
+        "name_en": "Czech Republic",
+        "image_url": "http://cyjm.qiniudn.com/destinations/81-portait.jpg",
+        "children": [
+          {
+            "id": 81,
+            "name_zh_cn": "捷克",
+            "name_en": "Czech Republic",
+            "locked": false,
+            "destination_trips_count": 283,
+            "image_url": "http://cyjm.qiniudn.com/destinations/81-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 197,
+            "name_zh_cn": "布拉格",
+            "name_en": "prague",
+            "locked": false,
+            "destination_trips_count": 261,
+            "image_url": "http://m.chanyouji.cn/destinations/197-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "name_zh_cn": "匈牙利",
+        "name_en": "Hungary",
+        "image_url": "http://cyjm.qiniudn.com/destinations/191-portrait.jpg",
+        "children": [
+          {
+            "id": 97,
+            "name_zh_cn": "匈牙利",
+            "name_en": "Hungary",
+            "locked": false,
+            "destination_trips_count": 135,
+            "image_url": "http://cyjm.qiniudn.com/destinations/191-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 191,
+            "name_zh_cn": "布达佩斯",
+            "name_en": "Budapest",
+            "locked": false,
+            "destination_trips_count": 135,
+            "image_url": "http://m.chanyouji.cn/destinations/191-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "3",
+    "destinations": [
+      {
+        "id": 68,
+        "name_zh_cn": "新西兰",
+        "name_en": "New Zealand",
+        "image_url": "http://m.chanyouji.cn/destinations/68-portrait.jpg",
+        "children": [
+          {
+            "id": 68,
+            "name_zh_cn": "新西兰",
+            "name_en": "New Zealand",
+            "locked": false,
+            "destination_trips_count": 317,
+            "image_url": "http://m.chanyouji.cn/destinations/68-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 377,
+            "name_zh_cn": "皇后镇-南岛南",
+            "name_en": "Queenstown",
+            "locked": false,
+            "destination_trips_count": 206,
+            "image_url": "http://m.chanyouji.cn/destinations/377-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 337,
+            "name_zh_cn": "西海岸与南岛北",
+            "name_en": "South Island North",
+            "locked": false,
+            "destination_trips_count": 198,
+            "image_url": "http://m.chanyouji.cn/destinations/337-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 378,
+            "name_zh_cn": "基督城-坎特伯雷",
+            "name_en": "Christchurch-Canterbury",
+            "locked": false,
+            "destination_trips_count": 180,
+            "image_url": "http://m.chanyouji.cn/destinations/378-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 126,
+            "name_zh_cn": "奥克兰-北岛北",
+            "name_en": "Auckland",
+            "locked": false,
+            "destination_trips_count": 171,
+            "image_url": "http://m.chanyouji.cn/destinations/126-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 380,
+            "name_zh_cn": "罗托鲁瓦-北岛南",
+            "name_en": "Rotorua",
+            "locked": false,
+            "destination_trips_count": 122,
+            "image_url": "http://m.chanyouji.cn/destinations/380-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "99",
+    "destinations": [
+      {
+        "id": 12,
+        "name_zh_cn": "台湾",
+        "name_en": "Taiwan",
+        "image_url": "http://m.chanyouji.cn/destinations/12-portrait.jpg",
+        "children": [
+          {
+            "id": 12,
+            "name_zh_cn": "台湾",
+            "name_en": "Taiwan",
+            "locked": false,
+            "destination_trips_count": 2492,
+            "image_url": "http://m.chanyouji.cn/destinations/12-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 150,
+            "name_zh_cn": "台北",
+            "name_en": "Taipei",
+            "locked": false,
+            "destination_trips_count": 2120,
+            "image_url": "http://m.chanyouji.cn/destinations/150-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 151,
+            "name_zh_cn": "台湾南部",
+            "name_en": "Taiwan South",
+            "locked": false,
+            "destination_trips_count": 1240,
+            "image_url": "http://m.chanyouji.cn/destinations/151-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 240,
+            "name_zh_cn": "垦丁",
+            "name_en": "Kenting",
+            "locked": false,
+            "destination_trips_count": 1189,
+            "image_url": "http://m.chanyouji.cn/destinations/240-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 239,
+            "name_zh_cn": "台湾东部",
+            "name_en": "Taiwan East",
+            "locked": false,
+            "destination_trips_count": 998,
+            "image_url": "http://m.chanyouji.cn/destinations/239-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 238,
+            "name_zh_cn": "台湾中部",
+            "name_en": "Taiwan Central",
+            "locked": false,
+            "destination_trips_count": 965,
+            "image_url": "http://m.chanyouji.cn/destinations/238-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name_zh_cn": "香港",
+        "name_en": "Hong Kong",
+        "image_url": "http://m.chanyouji.cn/destinations/13-portrait.jpg",
+        "children": [
+          {
+            "id": 13,
+            "name_zh_cn": "香港",
+            "name_en": "Hong Kong",
+            "locked": false,
+            "destination_trips_count": 2147,
+            "image_url": "http://m.chanyouji.cn/destinations/13-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name_zh_cn": "澳门",
+        "name_en": "Macau",
+        "image_url": "http://m.chanyouji.cn/destinations/14-portrait.jpg",
+        "children": [
+          {
+            "id": 14,
+            "name_zh_cn": "澳门",
+            "name_en": "Macau",
+            "locked": false,
+            "destination_trips_count": 701,
+            "image_url": "http://m.chanyouji.cn/destinations/14-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "999",
+    "destinations": [
+      {
+        "id": 16,
+        "name_zh_cn": "云南",
+        "name_en": "Yunnan",
+        "image_url": "http://m.chanyouji.cn/destinations/16-portrait.jpg",
+        "children": [
+          {
+            "id": 16,
+            "name_zh_cn": "云南",
+            "name_en": "Yunnan",
+            "locked": false,
+            "destination_trips_count": 3382,
+            "image_url": "http://m.chanyouji.cn/destinations/16-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 140,
+            "name_zh_cn": "丽江",
+            "name_en": "Lijiang",
+            "locked": false,
+            "destination_trips_count": 2183,
+            "image_url": "http://m.chanyouji.cn/destinations/140-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 141,
+            "name_zh_cn": "大理",
+            "name_en": "Dali",
+            "locked": false,
+            "destination_trips_count": 1602,
+            "image_url": "http://m.chanyouji.cn/destinations/141-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 139,
+            "name_zh_cn": "昆明及滇中",
+            "name_en": "Kunming",
+            "locked": false,
+            "destination_trips_count": 1503,
+            "image_url": "http://m.chanyouji.cn/destinations/139-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 142,
+            "name_zh_cn": "香格里拉及滇藏线",
+            "name_en": "Shangri_La",
+            "locked": false,
+            "destination_trips_count": 1151,
+            "image_url": "http://m.chanyouji.cn/destinations/142-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 143,
+            "name_zh_cn": "西双版纳及滇南",
+            "name_en": "Xishuangbanna",
+            "locked": false,
+            "destination_trips_count": 360,
+            "image_url": "http://m.chanyouji.cn/destinations/143-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name_zh_cn": "上海",
+        "name_en": "Shanghai",
+        "image_url": "http://m.chanyouji.cn/tips/25-portrait.jpg",
+        "children": [
+          {
+            "id": 25,
+            "name_zh_cn": "上海",
+            "name_en": "Shanghai",
+            "locked": false,
+            "destination_trips_count": 3042,
+            "image_url": "http://m.chanyouji.cn/tips/25-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name_zh_cn": "四川",
+        "name_en": "Sichuan",
+        "image_url": "http://m.chanyouji.cn/destinations/20-portrait.jpg",
+        "children": [
+          {
+            "id": 20,
+            "name_zh_cn": "四川",
+            "name_en": "Sichuan",
+            "locked": false,
+            "destination_trips_count": 2692,
+            "image_url": "http://m.chanyouji.cn/destinations/20-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 144,
+            "name_zh_cn": "成都",
+            "name_en": "Chengdu",
+            "locked": false,
+            "destination_trips_count": 1813,
+            "image_url": "http://m.chanyouji.cn/destinations/144-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 304,
+            "name_zh_cn": "阿坝-九寨及周边",
+            "name_en": "aba",
+            "locked": false,
+            "destination_trips_count": 737,
+            "image_url": "http://m.chanyouji.cn/destinations/304-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 413,
+            "name_zh_cn": "川藏北线",
+            "name_en": "Northern Sichuan-Tibet Highway",
+            "locked": false,
+            "destination_trips_count": 3,
+            "image_url": "http://m.chanyouji.cn/destinations/413.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 412,
+            "name_zh_cn": "川藏南线",
+            "name_en": "Southern Sichuan-Tibet Highway",
+            "locked": false,
+            "destination_trips_count": 2,
+            "image_url": "http://m.chanyouji.cn/destinations/305-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name_zh_cn": "北京",
+        "name_en": "Beijing",
+        "image_url": "http://m.chanyouji.cn/destinations/23-portrait.jpg",
+        "children": [
+          {
+            "id": 23,
+            "name_zh_cn": "北京",
+            "name_en": "Beijing",
+            "locked": false,
+            "destination_trips_count": 2262,
+            "image_url": "http://m.chanyouji.cn/destinations/23-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 152,
+        "name_zh_cn": "杭州",
+        "name_en": "Hangzhou",
+        "image_url": "http://m.chanyouji.cn/tips/152-portrait.jpg",
+        "children": [
+          {
+            "id": 152,
+            "name_zh_cn": "杭州",
+            "name_en": "Hangzhou",
+            "locked": false,
+            "destination_trips_count": 1482,
+            "image_url": "http://m.chanyouji.cn/destinations/152-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 161,
+        "name_zh_cn": "厦门",
+        "name_en": "Xiamen",
+        "image_url": "http://m.chanyouji.cn/destinations/161-portrait.jpg",
+        "children": [
+          {
+            "id": 161,
+            "name_zh_cn": "厦门",
+            "name_en": "Xiamen",
+            "locked": false,
+            "destination_trips_count": 1434,
+            "image_url": "http://m.chanyouji.cn/destinations/161-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name_zh_cn": "西藏",
+        "name_en": "Tibet",
+        "image_url": "http://m.chanyouji.cn/destinations/26-portrait.png",
+        "children": [
+          {
+            "id": 26,
+            "name_zh_cn": "西藏",
+            "name_en": "Tibet",
+            "locked": false,
+            "destination_trips_count": 1365,
+            "image_url": "http://m.chanyouji.cn/destinations/26-landscape.png",
+            "items_count": 0
+          },
+          {
+            "id": 145,
+            "name_zh_cn": "拉萨",
+            "name_en": "Lhasa",
+            "locked": false,
+            "destination_trips_count": 1153,
+            "image_url": "http://m.chanyouji.cn/destinations/145-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 298,
+            "name_zh_cn": "林芝",
+            "name_en": "Nyingchi",
+            "locked": false,
+            "destination_trips_count": 665,
+            "image_url": "http://m.chanyouji.cn/destinations/298-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 297,
+            "name_zh_cn": "日喀则及山南地区",
+            "name_en": "Shigatse ",
+            "locked": false,
+            "destination_trips_count": 497,
+            "image_url": "http://m.chanyouji.cn/destinations/297-landscape.jpg",
+            "items_count": 0
+          },
+          {
+            "id": 296,
+            "name_zh_cn": "阿里",
+            "name_en": "Ali",
+            "locked": false,
+            "destination_trips_count": 84,
+            "image_url": "http://m.chanyouji.cn/destinations/296-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 160,
+        "name_zh_cn": "广州",
+        "name_en": "Guangzhou",
+        "image_url": "http://m.chanyouji.cn/destinations/160-portrait.jpg",
+        "children": [
+          {
+            "id": 160,
+            "name_zh_cn": "广州",
+            "name_en": "Guangzhou",
+            "locked": false,
+            "destination_trips_count": 1087,
+            "image_url": "http://m.chanyouji.cn/destinations/160-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 153,
+        "name_zh_cn": "南京",
+        "name_en": "Nanjing",
+        "image_url": "http://m.chanyouji.cn/destinations/153-portrait.jpg",
+        "children": [
+          {
+            "id": 153,
+            "name_zh_cn": "南京",
+            "name_en": "Nanjing",
+            "locked": false,
+            "destination_trips_count": 807,
+            "image_url": "http://m.chanyouji.cn/destinations/153-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      },
+      {
+        "id": 154,
+        "name_zh_cn": "苏州",
+        "name_en": "suzhou",
+        "image_url": "http://m.chanyouji.cn/destinations/154-portrait.jpg",
+        "children": [
+          {
+            "id": 154,
+            "name_zh_cn": "苏州",
+            "name_en": "suzhou",
+            "locked": false,
+            "destination_trips_count": 791,
+            "image_url": "http://m.chanyouji.cn/destinations/154-landscape.jpg",
+            "items_count": 0
+          }
+        ]
+      }
+    ]
+  }
+]
